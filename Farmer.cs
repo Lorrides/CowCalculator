@@ -16,7 +16,6 @@ namespace CowCalculator
         public int BagsOfFeed { get; private set; }
         private int feedMultiplier;
         public int FeedMultiplier { get { return feedMultiplier; } }
-
         private int numberOfCows;
         public int NumberOfCows
         {
