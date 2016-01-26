@@ -12,6 +12,8 @@ namespace CowCalculator
 {
     public partial class Form1 : Form
     {
+        Farmer farmer;
+
         public Form1()
         {
             InitializeComponent();
