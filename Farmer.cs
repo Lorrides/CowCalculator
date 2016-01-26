@@ -8,8 +8,7 @@ namespace CowCalculator
 {
     class Farmer
     {
-
-        public int BagsOfFeed;
+        public int BagsOfFeed { get; private set; }
         public const int FeedMultiplier = 30;
 
         private int numberOFCows;
