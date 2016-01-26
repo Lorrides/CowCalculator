@@ -17,8 +17,7 @@ namespace CowCalculator
         public Form1()
         {
             InitializeComponent();
-            farmer = new Farmer() { NumberOfCows = 15 };
-
+            farmer = new Farmer(15,30);
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
@@ -31,6 +30,5 @@ namespace CowCalculator
             Console.WriteLine("I need {0} bags of feed for {1} cows",
                 farmer.BagsOfFeed, farmer.NumberOfCows);
         }
-
     }
 }
